@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book>
+        <title>IT</title>
+        <author>Stephen King</author>
+        <year>1986</year>
+        <genre>Horror</genre>
+        <publisher>Viking</publisher>
+    </book>
+    <book>
+        <title>The Shining</title>
+        <author>Stephen King</author>
+        <year>1977</year>
+        <genre>Horror</genre>
+        <publisher>Doubleday</publisher>
+    </book>
+    <book>
+        <title>Misery</title>
+        <author>Stephen King</author>
+        <year>1987</year>
+        <genre>Psychological Horror</genre>
+        <publisher>Viking</publisher>
+    </book>
+    <book>
+        <title>Pet Sematary</title>
+        <author>Stephen King</author>
+        <year>1983</year>
+        <genre>Horror</genre>
+        <publisher>DoubleDay</publisher>
+    </book>
+    <book>
+        <title>The Green Mile</title>
+        <author>Stephen King</author>
+        <year>1996</year>
+        <genre>Drama</genre>
+        <publisher>Scribner</publisher>
+    </book>
+</library>
