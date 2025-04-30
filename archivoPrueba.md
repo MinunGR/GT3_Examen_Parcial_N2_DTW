@@ -1,2 +1,0 @@
-# La prueba
-- Javier Peraza
