@@ -30,9 +30,9 @@ Este proyecto fue desarrollado a partir del repositorio base proporcionado y bif
 
 ### 1. Lectura de XML y Conversión a JSON
 
-- Se agregó un archivo XML con registros ficticios en `storage/xml/usuarios.xml`.
+- Se agregó un archivo XML con registros de libros en `storage/xml/books.xml`.
 - Se creó una ruta y un controlador para leer el archivo XML y convertirlo a JSON.
-- Los datos JSON se muestran en una tabla utilizando Bootstrap en la vista `preferencias.blade.php`.
+- Los datos JSON se muestran en una tabla utilizando Bootstrap en la vista.
 
 ### 2. Consumo de Servicio SOAP
 
