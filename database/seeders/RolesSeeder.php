@@ -19,11 +19,16 @@ class RolesSeeder extends Seeder
         // Usuario
         $roleUsuario = Role::create(['name' => 'usuario']);
 
+        //Usuario Parcial
+        $roleParcial = Role::create(['name' => 'parcialdtw']);
+
+        // Roles y permisos
+        Permission::create(['name' => 'sidebar.parcial', 'description' => 'sidebar parcial'])->syncRoles($roleParcial);
+
         // ROLES Y PERMISOS
         Permission::create(['name' => 'sidebar.roles.y.permisos', 'description' => 'sidebar seccion roles y permisos'])->syncRoles($roleAdmin);
 
         // PERMISO PARA VISTA DASHBOARD
         Permission::create(['name' => 'sidebar.dashboard', 'description' => 'sidebar dashboard'])->syncRoles($roleUsuario);
-
     }
 }

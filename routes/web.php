@@ -12,7 +12,7 @@ use App\Http\Controllers\Backend\Registro\RegistroController;
 
 
 use App\Http\Controllers\Backend\Dashboard\DashboardController;
-
+use App\Http\Controllers\Backend\XML\XmlController;
 
 // --- LOGIN ---
 
