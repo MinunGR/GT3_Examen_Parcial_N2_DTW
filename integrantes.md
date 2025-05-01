@@ -1,13 +1,15 @@
 # Examen Parcial 2 - Desarrollo y Técnicas de Aplicaciones Web DTW135 - GT01
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Escudo_de_la_Universidad_de_El_Salvador.svg/1200px-Escudo_de_la_Universidad_de_El_Salvador.svg.png" alt="LogoUes" width="20%" height="40%">
-    <img src="" alt="LogoIDS" width="20%" height="40%">
+</p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1K45h2JPReuWVNaSC_PmiPYmEIyGLCqeF" alt="LogoIDS" width="50%" height="100%">
 </p>
 
 ## 📘 Tema: Almacenamiento Local y Web Services
 Este proyecto corresponde al segundo examen parcial del curso **Desarrollo y Técnicas de Aplicaciones Web**, y tiene como objetivo implementar funcionalidades relacionadas con la lectura de archivos XML, conversión a JSON y el consumo de un servicio web SOAP gratuito.
 
-## 📘 Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 Este proyecto fue desarrollado a partir del repositorio base proporcionado y bifurcado (fork) en la cuenta GitHub de uno de los miembros del grupo, siguiendo las instrucciones brindadas.
 
