@@ -58,3 +58,12 @@ Route::get('sin-permisos', [ControlController::class,'indexSinPermiso'])->name('
 Route::get('/admin/dashboard', [DashboardController::class,'vistaDashboard'])->name('admin.dashboard.index');
 
 
+
+
+
+
+// Rutas para parcial #2
+// Ruta para redireccionar a la vista de dashboard para parcial
+Route::get('/parcial/dashboard', [DashboardController::class,'vistaDashboard'])->name('parcial.dashboard.index');
+Route::get('/parcial/xml/index', [XmlController::class,'index'])->name('parcial.xml.index');
+Route::get('/parcial/xml/tabla', [XmlController::class,'tablaXML']);
