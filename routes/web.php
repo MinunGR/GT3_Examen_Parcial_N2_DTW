@@ -59,9 +59,6 @@ Route::get('/admin/dashboard', [DashboardController::class,'vistaDashboard'])->n
 
 
 
-
-
-
 // Rutas para parcial #2
 // Ruta para redireccionar a la vista de dashboard para parcial
 Route::get('/parcial/dashboard', [DashboardController::class,'vistaDashboard'])->name('parcial.dashboard.index');
