@@ -10,8 +10,8 @@ use App\Http\Controllers\Backend\Configuracion\ConfiguracionController;
 use App\Http\Controllers\Backend\Registro\RegistroController;
 
 
-
 use App\Http\Controllers\Backend\Dashboard\DashboardController;
+use App\Http\Controllers\Backend\SOAP\SoapController;
 use App\Http\Controllers\Backend\XML\XmlController;
 
 // --- LOGIN ---
@@ -57,10 +57,13 @@ Route::get('sin-permisos', [ControlController::class,'indexSinPermiso'])->name('
 
 Route::get('/admin/dashboard', [DashboardController::class,'vistaDashboard'])->name('admin.dashboard.index');
 
-
-
 // Rutas para parcial #2
 // Ruta para redireccionar a la vista de dashboard para parcial
 Route::get('/parcial/dashboard', [DashboardController::class,'vistaDashboard'])->name('parcial.dashboard.index');
 Route::get('/parcial/xml/index', [XmlController::class,'index'])->name('parcial.xml.index');
 Route::get('/parcial/xml/tabla', [XmlController::class,'tablaJSON']);
+Route::get('/parcial/calculadora', [SoapController::class,'formulario'])->name('parcial.calculadora.index');;
+Route::post('/parcial/calcular', [SOAPController::class, 'calcular'])->name('calcular');;
+
+// --- CONVERSOR XML-JSON ---
+Route::get('/xml-to-json', [XmlController::class, 'show'])->name('xml.json');
