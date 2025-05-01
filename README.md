@@ -13,6 +13,10 @@ Este proyecto corresponde al segundo examen parcial del curso **Desarrollo y Té
 
 Este proyecto fue desarrollado a partir del repositorio base proporcionado y bifurcado (fork) en la cuenta GitHub de uno de los miembros del grupo, siguiendo las instrucciones brindadas.
 
+## 🔑 Credenciales para iniciar sesión:
+**Usuario:** parcialdtw
+**Contraseña:** parcialdtw
+
 ## 🛠️ Tecnologías Utilizadas
 
 - Laravel 10+
