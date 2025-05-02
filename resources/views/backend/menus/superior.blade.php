@@ -15,6 +15,9 @@
     <link href="{{ asset('css/toastr.min.css') }}" type="text/css" rel="stylesheet" />
     @yield('content-admin-css')
 
+    <!-- Iconos de calculadora y vista XML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
     <!--  /xxxxxxxx.com/admin  -->
 
     <script type="text/javascript"> var url = "/admin"; </script>

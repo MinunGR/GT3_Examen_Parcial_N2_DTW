@@ -9,18 +9,18 @@
 
 <style>
     table {
-        /*Ajustar tablas*/
+        /*Ajusta las tablas*/
         table-layout: fixed;
     }
 </style>
 
 
-
+<!--
 <div id="divcontenedor" style="display: none">
     <section class="content-header">
         <div class="container-fluid">
             <div class="col-sm-12">
-                <h1>Vista XML</h1>
+                <h1>Listado de Libros</h1>
             </div>
             <br>
         </div>
@@ -44,6 +44,29 @@
     </section>
 
 </div>
+-->
+
+
+<div id="divcontenedor" style="display: none;">
+    <section class="content-header py-2">
+        <div class="container-fluid px-2 d-flex justify-content-center"">
+            <h1 class="h4 mb-0">Vista XML</h1>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid px-2">
+            <div class="card shadow-sm border-success mb-0">
+
+                <div class="card-body py-2">
+                    <div id="tablaDatatableXML" class="table-responsive">
+                        <!-- Aquí se carga la tabla -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
 
 @extends('backend.menus.footerjs')
@@ -58,7 +81,7 @@
     <script src="{{ asset('js/alertaPersonalizada.js') }}"></script>
 
 
-    <!-- incluir tabla -->
+    <!-- Para incluir la tabla -->
     <script type="text/javascript">
         $(document).ready(function(){
             var ruta = "{{ URL::to('/parcial/xml/tabla') }}";

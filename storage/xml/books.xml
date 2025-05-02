@@ -35,4 +35,18 @@
         <genre>Drama</genre>
         <publisher>Scribner</publisher>
     </book>
+    <book>
+        <title>A dos metros de distancia</title>
+        <author>Rachael Lippincott</author>
+        <year>2019</year>
+        <genre>Romántico</genre>
+        <publisher>Editorial Planeta</publisher>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1937</year>
+        <genre>Fantasía</genre>
+        <publisher>HarperCollins</publisher>
+    </book>
 </library>

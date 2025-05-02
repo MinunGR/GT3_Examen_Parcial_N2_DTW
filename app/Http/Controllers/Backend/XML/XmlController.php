@@ -13,24 +13,24 @@ class XmlController extends Controller
         $this->middleware('auth');
     }
 
-    // retorna vista xml
+    // Funcion que retorna la vista xml
     public function index()
     {
         return view('backend.xml.json_view');
     }
 
 
-    // retorna datos de tabla basada en el XML
+    // Funcion que retorna datos de tabla basada en el XML
     public function tablaJSON()
     {
-        $json = json_decode($this->show(), true); // lo pasamos a array asociativo
+        $json = json_decode($this->show(), true); // Se pasa a un array asociativo
         return view('backend.xml.tabla.xml_tabla', ['books' => $json['book']]);
     }
 
  
     public function show()
     {
-        $xmlPath = storage_path('xml/books.xml'); // Asegúrate de que el nombre coincida con tu archivo XML
+        $xmlPath = storage_path('xml/books.xml'); 
 
         if (!file_exists($xmlPath)) {
             abort(404, 'Archivo XML no encontrado');

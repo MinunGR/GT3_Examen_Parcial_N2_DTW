@@ -15,6 +15,9 @@
     <!-- Mensajes Toast -->
     <link href="{{ asset('css/toastr.min.css') }}" type="text/css" rel="stylesheet" />
     @yield('content-admin-css')
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
 </head>
 
 
